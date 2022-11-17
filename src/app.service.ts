@@ -13,12 +13,7 @@ export class AppService {
       loginRequest.password === '123456'
     ) {
       const user = {
-        id: 'userId-1',
-        //rol: loginRequest.username,
-        // rol: 'tenantRead',
-        // rol: 'tenantWrite',
-        // rol: 'reseller',
-        rol: 'agemes',
+        id: '000001',
         roles: ['agemes', 'tenantRead'],
         exp: moment().add('2', 'hours').unix(),
       };
